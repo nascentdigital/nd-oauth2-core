@@ -1,0 +1,29 @@
+{
+  "name": "nd-oauth2-core",
+  "description": "Shared module for both Nascent OAuth2 NodeJS server and associated providers.",
+  "author": "Nascent Digital",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nascentdigital/nd-oauth2-core.git"
+  },
+  "keywords": [
+    "oauth 2",
+    "server"
+  ],
+  "engines": {
+    "node": ">=6.3.0"
+  },
+  "dependencies": {
+    "lodash": "^4.14.0",
+    "oauth2-server": "git://github.com/oauthjs/node-oauth2-server.git#cd7776c"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/nascentdigital/nd-oauth2-core/issues"
+  },
+  "homepage": "https://github.com/nascentdigital/nd-oauth2-core#readme",
+  "main": "index.js"
+}
